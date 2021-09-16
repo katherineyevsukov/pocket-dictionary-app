@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import { getWord } from "../actions";
 import styled from "styled-components";
 
+
 const StyledSearch = styled.form`
  margin-left: 2rem;
 `
@@ -11,8 +12,8 @@ const WordContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 60%;
-  align-items: center;
+  width: 50%;
+  align-items: left;
   text-align: start;
 
   .partOfSpeech{
@@ -27,7 +28,7 @@ const WordContainer = styled.div`
 
 const CurrentWord = styled.h2`
   font-size: 4rem;
-
+  text-align: center;
  
 `;
 
