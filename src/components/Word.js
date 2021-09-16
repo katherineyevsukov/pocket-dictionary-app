@@ -12,7 +12,7 @@ const WordContainer = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 50%;
+  width: 50vw;
   align-items: left;
   text-align: start;
 
